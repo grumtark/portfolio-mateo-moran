@@ -63,7 +63,7 @@ const translations = {
   "proj.1.link":          { es: "Ver repositorio ↗", en: "View repository ↗" },
 
   "proj.2.label":         { es: "02 · Plataforma educativa",  en: "02 · Educational platform" },
-  "proj.2.title":         { es: "Planificaciones Escolares",   en: "School Lesson Plans" },
+  "proj.2.title":         { es: "Gestión Académica",   en: "Academic Management" },
   "proj.2.desc": {
     es: "Sistema de gestión académica con acceso por usuario y roles, diseñado para administrar planificaciones docentes. Cuenta con un panel centralizado para gestionar carreras, asignaturas y docentes, además de herramientas de recuperación de registros eliminados y generación de reportes en PDF.",
     en: "Academic management system with user and role-based access, designed to manage lesson plans. Features a centralized panel to manage programs, subjects, and teachers, plus tools for recovering deleted records and generating PDF reports."
