@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mateo Morán · Desarrollador de Sistemas</title>
+  <meta name="description" content="Portfolio de Mateo Emmanuel Morán, Técnico Superior en Desarrollo de Software. Sistemas web con PHP, Vue.js y MySQL.">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+  <div class="site-wrapper">
+
+    <!-- NAV -->
+    <nav class="nav">
+      <div class="nav__inner">
+        <a href="#inicio" class="nav__logo">
+          <span class="nav__logo-dot"></span>M. Morán
+        </a>
+        <div class="nav__links">
+          <a href="#sobre-mi" class="nav__link h1" data-i18n="nav.about">Sobre mí</a>
+          <a href="#experiencia" class="nav__link h2" data-i18n="nav.experience">Experiencia</a>
+          <a href="#proyectos" class="nav__link h3" data-i18n="nav.projects">Proyectos</a>
+          <a href="#contacto" class="nav__link--cta h4" data-i18n="nav.contact">Contacto</a>
+          <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Switch to English">EN</button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <!-- 01 / HERO -->
+      <section id="inicio" class="hero">
+
+        <div class="hero__card">
+          <div class="hero__grid-bg"></div>
+
+          <div class="hero__topbar">
+            <span data-i18n="hero.topbar.label">01 — Perfil</span>
+            <span>Victoria · Entre Ríos · AR</span>
+          </div>
+
+          <div class="hero__content">
+
+            <div class="hero__text">
+              <span class="hero__badge">
+                <span class="hero__badge-dot"></span>Mateo Emmanuel Morán
+              </span>
+              <h1 class="hero__title"><span data-i18n="hero.title.line1">Desarrollo de</span><br /><span class="hero__title-accent" data-i18n="hero.title.accent">Software</span></h1>
+              <p class="hero__description" data-i18n="hero.description">Técnico Superior en Desarrollo de Software. <br />Desarrollo soluciones tecnológicas utilizando distintos lenguajes y herramientas, con experiencia en aplicaciones web, sistemas de gestión, bases de datos y resolución de problemas.</p>
+            </div>
+
+            <div class="hero__portrait-wrapper">
+              <img src="assets/img/mateo-retrato.jpg" alt="Retrato de Mateo Emmanuel Morán" class="hero__portrait" />
+            </div>
+
+          </div>
+        </div>
+
+        <div class="hero__actions">
+          <a href="#proyectos" class="hero__btn-primary h5"><span data-i18n="hero.btn.projects">Ver proyectos</span> <span aria-hidden="true">→</span></a>
+          <a href="mailto:moranmateo53@gmail.com" class="hero__btn-secondary h6" data-i18n="hero.btn.contact">Escribime</a>
+          <span class="hero__social">
+            <a href="https://github.com/grumtark" target="_blank" rel="noopener" class="hero__social-link">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/mateo-moran-74b0b4332" target="_blank" rel="noopener" class="hero__social-link">LinkedIn ↗</a>
+          </span>
+        </div>
+
+      </section>
+
+      <!-- 02 / SOBRE MÍ -->
+      <section id="sobre-mi" class="section section--sidebar">
+        <header class="section__header">
+          <span class="section__number">02</span>
+          <h2 class="section__title" data-i18n="about.title">Sobre mí</h2>
+        </header>
+
+        <div class="section__body about__body">
+          <p class="about__lede" data-i18n="about.lede">Me interesa explorar distintas tecnologías y encontrar soluciones prácticas a los desafíos que presenta cada proyecto. <span class="about__lede-accent">Disfruto aprender nuevas herramientas, experimentar con diferentes enfoques y ampliar mis conocimientos a través del desarrollo de software.</span></p>
+
+          <div class="about__info-grid">
+            <div class="about__info-cell">
+              <span class="about__info-label" data-i18n="about.education.label">Formación</span>
+              <span class="about__info-value" data-i18n="about.education.value">Técnico en Análisis y Desarrollo de Software</span>
+              <span class="about__info-sub">ISP Gaspar L. Benavento · 2023–2025</span>
+            </div>
+            <div class="about__info-cell">
+              <span class="about__info-label" data-i18n="about.languages.label">Idiomas</span>
+              <span class="about__info-value" data-i18n="about.languages.value">Español nativo</span>
+              <span class="about__info-sub" data-i18n="about.languages.sub">Inglés B1</span>
+            </div>
+          </div>
+
+          <div class="about__skills">
+            <div class="about__skills-row">
+              <span class="about__skills-label" data-i18n="about.skills.languages">Lenguajes</span>
+              <span class="about__skills-list">
+                <span class="about__skill-tag">PHP</span>
+                <span class="about__skill-tag">JavaScript</span>
+                <span class="about__skill-tag">Python</span>
+                <span class="about__skill-tag">SQL</span>
+                <span class="about__skill-tag">HTML5</span>
+                <span class="about__skill-tag">CSS3</span>
+              </span>
+            </div>
+
+            <div class="about__skills-row">
+              <span class="about__skills-label" data-i18n="about.skills.frameworks">Frameworks y librerías</span>
+              <span class="about__skills-list">
+                <span class="about__skill-tag">Vue.js</span>
+                <span class="about__skill-tag">Bootstrap</span>
+              </span>
+            </div>
+
+            <div class="about__skills-row">
+              <span class="about__skills-label" data-i18n="about.skills.databases">Bases de datos</span>
+              <span class="about__skills-list">
+                <span class="about__skill-tag">MySQL</span>
+                <span class="about__skill-tag">SQLite</span>
+                <span class="about__skill-tag">SQL Server</span>
+              </span>
+            </div>
+
+            <div class="about__skills-row">
+              <span class="about__skills-label" data-i18n="about.skills.web">Tecnologías web</span>
+              <span class="about__skills-list">
+                <span class="about__skill-tag">AJAX</span>
+                <span class="about__skill-tag">JSON</span>
+              </span>
+            </div>
+
+            <div class="about__skills-row">
+              <span class="about__skills-label" data-i18n="about.skills.tools">Herramientas y metodologías</span>
+              <span class="about__skills-list">
+                <span class="about__skill-tag">Git</span>
+                <span class="about__skill-tag">GitHub</span>
+                <span class="about__skill-tag">Docker</span>
+                <span class="about__skill-tag">Scrum</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 03 / EXPERIENCIA -->
+      <section id="experiencia" class="section section--sidebar">
+        <header class="section__header">
+          <span class="section__number">03</span>
+          <h2 class="section__title" data-i18n="exp.title">Experiencia</h2>
+        </header>
+
+        <div class="section__body experience__list">
+          <article class="experience__item">
+            <span class="experience__date" data-i18n="exp.1.date">Mar — May 2026</span>
+            <div class="experience__detail">
+              <h3 class="experience__role"><span data-i18n="exp.1.role">Desarrollador Web Junior</span> <span class="experience__company">· 1bit</span></h3>
+              <p class="experience__desc" data-i18n="exp.1.desc">Desarrollo y mantenimiento de sitios web dinámicos sobre el ERP GlobalBluePoint. Nuevas páginas y funcionalidades frontend, corrección de errores, componentes Vue.js yconsultas SQL en catálogos y landing pages.</p>
+            </div>
+          </article>
+          <article class="experience__item">
+            <span class="experience__date" data-i18n="exp.2.date">Ago 2025 — Abr 2026</span>
+            <div class="experience__detail">
+              <h3 class="experience__role"><span data-i18n="exp.2.role">Profesor de Informática</span> <span class="experience__company" data-i18n="exp.2.company">· Colegio de la Mesopotamia</span></h3>
+              <p class="experience__desc" data-i18n="exp.2.desc">Clases introductorias de programación y lógica computacional para nivel primario, con pseudocódigo, diagramas de flujo y Python.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 04 / PROYECTOS -->
+      <section id="proyectos" class="projects">
+        <header class="projects__header">
+          <div class="projects__header-left">
+            <span class="section__number">04</span>
+            <h2 class="section__title" data-i18n="proj.title">Proyectos</h2>
+          </div>
+          <span class="projects__subtitle" data-i18n="proj.subtitle">Sistemas de gestión y sitios a medida</span>
+        </header>
+
+        <div class="projects__list">
+
+          <!-- P/01 Gastronomía -->
+          <article class="project-card">
+            <div class="project-card__info">
+              <div class="project-card__info-top">
+                <span class="project-card__label" data-i18n="proj.1.label">01 · Sistema de gestión</span>
+                <h3 class="project-card__title" data-i18n="proj.1.title">Gestión Gastronómica</h3>
+                <p class="project-card__desc" data-i18n="proj.1.desc">Sistema de gestión integral para entornos gastronómicos que permite administrar inventarios, recetas y presupuestos desde una misma plataforma. Incorpora control automatizado de stock, descontando los insumos utilizados al ejecutar presupuestos y generando alertas cuando los productos alcanzan niveles bajos de existencias.</p>
+              </div>
+              <div class="project-card__info-bottom">
+                <span class="project-card__tech">PHP · JavaScript · AJAX · JSON · SQLite</span>
+                <a href="https://github.com/grumtark/Proyecto-Gastronom-a-" target="_blank" rel="noopener" class="project-card__link h7" data-i18n="proj.1.link">Ver repositorio ↗</a>
+              </div>
+            </div>
+            <div class="project-card__gallery">
+              <figure class="screenshot screenshot--wide">
+                <div class="screenshot__dots" aria-hidden="true"><span class="screenshot__dot"></span><span class="screenshot__dot"></span><span class="screenshot__dot"></span></div>
+                <img src="assets/img/gastro-stock.png" alt="Resumen de stock de productos y utensilios" class="screenshot__img screenshot__img--16-9" />
+              </figure>
+              <figure class="screenshot">
+                <div class="screenshot__dots screenshot__dots--sm" aria-hidden="true"><span class="screenshot__dot screenshot__dot--sm"></span><span class="screenshot__dot screenshot__dot--sm"></span><span class="screenshot__dot screenshot__dot--sm"></span></div>
+                <img src="assets/img/gastro-recetas.png" alt="Listado de recetas" class="screenshot__img screenshot__img--16-10" />
+              </figure>
+              <figure class="screenshot">
+                <div class="screenshot__dots screenshot__dots--sm" aria-hidden="true"><span class="screenshot__dot screenshot__dot--sm"></span><span class="screenshot__dot screenshot__dot--sm"></span><span class="screenshot__dot screenshot__dot--sm"></span></div>
+                <img src="assets/img/gastro-presupuesto.png" alt="Pantalla de presupuesto" class="screenshot__img screenshot__img--16-10" />
+              </figure>
+            </div>
+          </article>
+
+          <!-- P/02 Planificaciones -->
+          <article class="project-card">
+            <div class="project-card__info">
+              <div class="project-card__info-top">
+                <span class="project-card__label" data-i18n="proj.2.label">02 · Plataforma educativa</span>
+                <h3 class="project-card__title" data-i18n="proj.2.title">Planificaciones Escolares</h3>
+                <p class="project-card__desc" data-i18n="proj.2.desc">Sistema de gestión académica con acceso por usuario y roles, diseñado para administrar planificaciones docentes. Cuenta con un panel centralizado para gestionar carreras, asignaturas y docentes, además de herramientas de recuperación de registros eliminados y generación de reportes en PDF.</p>
+              </div>
+              <span class="project-card__tech">PHP · JavaScript · AJAX · JSON · MySQL</span>
+              <a href="https://github.com/grumtark/Gesti-n-de-planificaciones-escolares" target="_blank" rel="noopener" class="project-card__link h7" data-i18n="proj.2.link">Ver repositorio ↗</a>
+            </div>
+            <div class="project-card__gallery">
+              <figure class="screenshot screenshot--wide">
+                <div class="screenshot__dots" aria-hidden="true"><span class="screenshot__dot"></span><span class="screenshot__dot"></span><span class="screenshot__dot"></span></div>
+                <img src="assets/img/plan-usuarios.png" alt="Panel de administración: usuarios" class="screenshot__img screenshot__img--16-9" />
+              </figure>
+              <figure class="screenshot">
+                <div class="screenshot__dots screenshot__dots--sm" aria-hidden="true"><span class="screenshot__dot screenshot__dot--sm"></span><span class="screenshot__dot screenshot__dot--sm"></span><span class="screenshot__dot screenshot__dot--sm"></span></div>
+                <img src="assets/img/plan-asignaturas.png" alt="Panel de administración: asignaturas" class="screenshot__img screenshot__img--16-10" />
+              </figure>
+              <figure class="screenshot">
+                <div class="screenshot__dots screenshot__dots--sm" aria-hidden="true"><span class="screenshot__dot screenshot__dot--sm"></span><span class="screenshot__dot screenshot__dot--sm"></span><span class="screenshot__dot screenshot__dot--sm"></span></div>
+                <img src="assets/img/plan-login.png" alt="Pantalla de inicio de sesión" class="screenshot__img screenshot__img--16-10" />
+              </figure>
+            </div>
+          </article>
+
+          <!-- P/03 ATURVIC -->
+          <article class="project-card">
+            <div class="project-card__info">
+              <div class="project-card__info-top">
+                <span class="project-card__label" data-i18n="proj.3.label">03 · Sitio institucional</span>
+                <h3 class="project-card__title">ATURVIC</h3>
+                <p class="project-card__desc" data-i18n="proj.3.desc">Desarrollo de un sitio web institucional para la Asociación de Turismo de Victoria Entre Ríos. Incluye secciones informativas, formularios y un panel administrativo para gestionar contenidos. Cuenta con diseño responsive y fue desplegado en un hosting real, incluyendo la configuración y gestión de archivos mediante FTP.</p>
+              </div>
+              <div class="project-card__info-bottom">
+                <span class="project-card__tech">PHP · MySQL · JavaScript · AJAX</span>
+                <a href="https://aturvic.com.ar" target="_blank" rel="noopener" class="project-card__link h8" data-i18n="proj.3.link">Visitar sitio ↗</a>
+              </div>
+            </div>
+            <div class="project-card__gallery project-card__gallery--single">
+              <figure class="screenshot" style="width:100%">
+                <div class="screenshot__dots" aria-hidden="true"><span class="screenshot__dot"></span><span class="screenshot__dot"></span><span class="screenshot__dot"></span></div>
+                <img src="assets/img/aturvic-home.jpg" alt="Portada del sitio de la Asociación de Turismo de Victoria" class="screenshot__img screenshot__img--16-9" />
+              </figure>
+            </div>
+          </article>
+
+          <!-- P/04 BYF Deco -->
+          <article class="project-card">
+            <div class="project-card__info">
+              <div class="project-card__info-top">
+                <span class="project-card__label" data-i18n="proj.4.label">04 · E-commerce mayorista</span>
+                <h3 class="project-card__title" data-i18n="proj.4.title">BYF Deco – Tienda Mayorista</h3>
+                <p class="project-card__desc" data-i18n="proj.4.desc">Desarrollo y personalización de una página del sitio mayorista de BYF Deco durante mi experiencia como Desarrollador Web Junior en 1bit. Trabajé con GlobalBluePoint para implementar y adaptar componentes, realizar ajustes visuales y aplicar modificaciones en otras secciones del sitio.</p>
+              </div>
+              <div class="project-card__info-bottom">
+                <span class="project-card__tech">GlobalBluePoint · Vue.js · JavaScript · HTML5 · CSS3</span>
+                <a href="https://www.byfdeco.com.ar/mayorista/CAT_ID=104/SCAT_ID=-1/m=0/BUS=/OR=1/byf.aspx?utm_source=fb&utm_medium=paid-Facebook_Mobile_Feed&utm_campaign=WAM+-+Ventas+-+RMKT+-+PUBLICO+NUEVO&utm_content=WAM+-+Purchase+-+RMKT+Sin+Sugerencias&utm_id=120231932757040688_v2_s01_e450_i20260427&utm_term=120231932757040688" target="_blank" rel="noopener" class="project-card__link h8" data-i18n="proj.4.link">Visitar sitio ↗</a>
+              </div>
+            </div>
+            <div class="project-card__gallery project-card__gallery--single">
+              <figure class="screenshot" style="width:100%">
+                <div class="screenshot__dots" aria-hidden="true"><span class="screenshot__dot"></span><span class="screenshot__dot"></span><span class="screenshot__dot"></span></div>
+                <img src="assets/img/byf_categorias.png" alt="Portada del sitio de la Asociación de Turismo de Victoria" class="screenshot__img screenshot__img--16-9" />
+              </figure>
+            </div>
+          </article>
+
+          <!-- P/05 Victoria Center -->
+          <article class="project-card">
+            <div class="project-card__info">
+              <div class="project-card__info-top">
+                <span class="project-card__label" data-i18n="proj.5.label">05 · Plataforma comercial</span>
+                <h3 class="project-card__title">Victoria Center</h3>
+                <p class="project-card__desc" data-i18n="proj.5.desc">Desarrollo colaborativo de una plataforma comercial que conecta negocios y consumidores de Victoria, Entre Ríos. Participé en el desarrollo de distintos módulos, principalmente con PHP y CSS, colaborando también con JavaScript y MySQL. Implementé funcionalidades de contacto directo por WhatsApp y trabajé en carruseles interactivos, desarrollando sus animaciones y navegación mediante arrastre. También participé en la publicación y gestión del sitio en producción mediante FTP.</p>
+              </div>
+              <div class="project-card__info-bottom">
+                <span class="project-card__tech">PHP · JavaScript · MySQL · CSS3 · HTML5</span>
+                <a href="https://victoriacenter.com.ar/" target="_blank" rel="noopener" class="project-card__link h8" data-i18n="proj.5.link">Visitar sitio ↗</a>
+              </div>
+            </div>
+            <div class="project-card__gallery">
+              <figure class="screenshot screenshot--wide">
+                <div class="screenshot__dots" aria-hidden="true"><span class="screenshot__dot"></span><span class="screenshot__dot"></span><span class="screenshot__dot"></span></div>
+                <img src="assets/img/victoria-center-home.png" alt="Panel de administración: usuarios" class="screenshot__img screenshot__img--16-9" />
+              </figure>
+              <figure class="screenshot">
+                <div class="screenshot__dots screenshot__dots--sm" aria-hidden="true"><span class="screenshot__dot screenshot__dot--sm"></span><span class="screenshot__dot screenshot__dot--sm"></span><span class="screenshot__dot screenshot__dot--sm"></span></div>
+                <img src="assets/img/victoria-center-carrucel.png" alt="Panel de administración: asignaturas" class="screenshot__img screenshot__img--16-10" />
+              </figure>
+              <figure class="screenshot">
+                <div class="screenshot__dots screenshot__dots--sm" aria-hidden="true"><span class="screenshot__dot screenshot__dot--sm"></span><span class="screenshot__dot screenshot__dot--sm"></span><span class="screenshot__dot screenshot__dot--sm"></span></div>
+                <img src="assets/img/victoria-center-rubros.png" alt="Pantalla de inicio de sesión" class="screenshot__img screenshot__img--16-10" />
+              </figure>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- 05 / CONTACTO -->
+      <section id="contacto" class="contact">
+        <div class="contact__card">
+          <div class="contact__grid-bg"></div>
+          <div class="contact__inner">
+            <div class="contact__topbar">
+              <span data-i18n="contact.topbar.label">05 — Contacto</span>
+              <span data-i18n="contact.topbar.status">Disponible para proyectos y equipos</span>
+            </div>
+            <h2 class="contact__title" data-i18n="contact.title">Hablemos<br />de tu sistema</h2>
+            <div class="contact__links">
+              <a href="mailto:moranmateo53@gmail.com" class="contact__link-card h9">
+                <span class="contact__link-label">Email</span>
+                <span class="contact__link-value contact__link-value--wrap">moranmateo53@gmail.com</span>
+              </a>
+              <a href="https://www.linkedin.com/in/mateo-moran-74b0b4332" target="_blank" rel="noopener" class="contact__link-card h10">
+                <span class="contact__link-label">LinkedIn</span>
+                <span class="contact__link-value">Mateo Morán ↗</span>
+              </a>
+              <a href="https://github.com/grumtark" target="_blank" rel="noopener" class="contact__link-card h11">
+                <span class="contact__link-label">GitHub</span>
+                <span class="contact__link-value">@grumtark ↗</span>
+              </a>
+              <div class="contact__link-card">
+                <span class="contact__link-label" data-i18n="contact.cv.label">Descargar CV</span>
+                <span class="contact__cv-links">
+                  <a href="assets/cv/mateo-moran-cv-es.pdf" download class="contact__cv-link h12">Español</a>
+                  <a href="assets/cv/mateo-moran-cv-en.pdf" download class="contact__cv-link h13">English</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <span>© 2026 Mateo Emmanuel Morán</span>
+        <a href="#inicio" class="footer__back-top" data-i18n="footer.back">Volver arriba ↑</a>
+      </footer>
+
+    </div>
+
+  </div>
+  <script src="assets/js/lang.js"></script>
+</body>
+
+</html>
