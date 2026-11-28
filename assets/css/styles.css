@@ -241,7 +241,7 @@ a:hover {
 .hero__title {
   margin: 0;
   font-weight: 900;
-  font-size: clamp(52px, 20cqw, 90px);
+  font-size: clamp(10cqw, 14cqw, 90px);
   line-height: 0.84;
   letter-spacing: -0.05em;
   text-transform: uppercase;
